@@ -1,6 +1,5 @@
 <?php
-
-namespace Image\View\Helper;
+namespace Karolak\Image\View\Helper;
 
 use Cake\ORM\TableRegistry;
 use Cake\View\Helper;

@@ -1,5 +1,4 @@
 <?php
-
 use Phinx\Migration\AbstractMigration;
 
 class Initialize extends AbstractMigration
@@ -12,11 +11,11 @@ class Initialize extends AbstractMigration
      *
      * Uncomment this method if you would like to use it.
      *
+     */
     public function change()
     {
     }
-    */
-    
+
     /**
      * Migrate Up.
      */

@@ -1,5 +1,9 @@
 # Image plugin for CakePHP 3
 
+[![Latest Stable Version](https://poser.pugx.org/karolak/cakephp-image/v/stable.svg)](https://packagist.org/packages/karolak/cakephp-image)
+[![Total Downloads](https://poser.pugx.org/karolak/cakephp-image/downloads.svg)](https://packagist.org/packages/karolak/cakephp-image)
+[![License](https://poser.pugx.org/karolak/cakephp-image/license.svg)](https://packagist.org/packages/karolak/cakephp-image)
+
 Plugin for fast and easy handling image uploads in CakePHP.
 
 Image presets are generated using [WideImage](https://github.com/smottt/WideImage). See the sourceforge [documentation](http://wideimage.sourceforge.net/) page.
