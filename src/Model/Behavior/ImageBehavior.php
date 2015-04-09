@@ -1,6 +1,5 @@
 <?php
-
-namespace Image\Model\Behavior;
+namespace Karolak\Image\Model\Behavior;
 
 use Cake\Event\Event;
 use Cake\Filesystem\File;

@@ -2,31 +2,30 @@
     "name": "karolak/cakephp-image",
     "description": "Image plugin for CakePHP 3.",
     "type": "cakephp-plugin",
-    "keywords":
-    [
-        "cakephp", "image", "uploader"
-    ],
+    "keywords": ["cakephp", "image", "uploader"],
     "homepage": "https://github.com/karolak/cakephp-image",
     "license": "MIT",
-    "authors":
-    [
+    "authors": [
         {
             "name": "Krzysztof Karolak",
             "email": "krzysztof@karolak.it"
         }
     ],
-    "require":
-    {
+    "require": {
         "php": ">=5.4",
+        "ext-intl": "*",
         "cakephp/cakephp": "~3.0",
         "cakephp/migrations": "~1.0",
-        "smottt/wideimage": "dev-master"
+        "smottt/wideimage": "dev-master",
+        "robmorgan/phinx": "~0.4"
     },
-    "autoload":
-    {
-        "psr-4":
-        {
-            "Image\\": "src"
+    "require-dev": {
+        "phpunit/phpunit": "~4.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Karolak\\Image\\": "src",
+            "Karolak\\Image\\Tests\\": "tests"
         }
     }
 }
